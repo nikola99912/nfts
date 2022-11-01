@@ -1,7 +1,7 @@
-import { counterReducer } from './counter/slice';
+import { collectionListReducer } from './collectionList/slice';
 
 const rootReducer = {
-  counter: counterReducer,
+  collectionList: collectionListReducer,
 };
 
 export default rootReducer;
